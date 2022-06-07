@@ -77,7 +77,7 @@ python main.py --type=test --use_crf
 python evalate.py
 ```
 ## Others
-1. [trained model]().
-2. For DeepLabv2-ResNet-101 backbone, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch). We also provide the [ImageNet pretrained model]().
+1. [trained model](https://drive.google.com/drive/folders/11BSHCmq24K5ktyPocnYc0LA6r9TS-S2Q?usp=sharing).
+2. For DeepLabv2-ResNet-101 backbone, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch). We also provide the [ImageNet pretrained model](https://drive.google.com/drive/folders/14y9slUxrSabxLUhJlfyLNzIvL46GNqZu?usp=sharing).
 ## Reference
 1. [DeepLab-V1-PyTorch](https://github.com/wangleihitcs/DeepLab-V1-PyTorch)
