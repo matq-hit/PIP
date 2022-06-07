@@ -10,19 +10,24 @@ The implementation for of ["Delving Deeper Into Pixel Prior for Box-Supervised S
 ## Datasets
 - [Pascal VOC 2012 Dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
     - extract 'VOCtrainval_11-May-2012.tar' to 'VOCdevkit/'
+- [Pascal VOC 2012 Augment Dataset](https://github.com/shelhamer/fcn.berkeleyvision.org/tree/master/data/pascal)
+  - extract labels to 'VOCdevkit/VOC2012/SegmentationClassAug'
 - [WSSL pseudo labels](http://liangchiehchen.com/projects/Datasets.html)
-    - extract 'SegmentationClassBboxSeg_Visualization.zip' to 'VOCdevkit/SegmentationClassBboxCRF'
+    - extract pseudo labels to 'VOCdevkit/VOC2012/SegmentationClassBboxCRF'
 - [SDI pseudo labels](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/weakly-supervised-learning/simple-does-it-weakly-supervised-instance-and-semantic-segmentation)
-    - extract 'VOC12_M&G+.zip' to 'VOCdevkit/VOC12_M&G+'
+    - extract pseudo labels to 'VOCdevkit/VOC2012/VOC12_M&G+'
 
 
 Finally, it should like this
 ```
 VOCdevkit
-├── Annotations
-├── JPEGImages
-├── SegmentationClassBboxCRF
-└── VOC12_M&G+
+└── VOC2012
+    ├── ImageSets
+    ├── JPEGImages
+    ├── SegmentationClass
+    ├── SegmentationClassAug
+    ├── SegmentationClassBboxCRF
+    └── VOC12_M&G+
 ```
 
 ## Performance
@@ -62,8 +67,6 @@ VOCdevkit
 python main.py --type=train
 ```
 ### Test
-
-with CRF
 ```
 python main.py --type=test --use_crf
 ```

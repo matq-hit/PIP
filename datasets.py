@@ -9,7 +9,7 @@ from utils import pascal
 
 class VOCDataset(torch.utils.data.Dataset):
     def __init__(self, split='train_aug', crop_size=321, label_dir_path='SegmentationClassAug', is_scale=True, is_flip=True):
-        self.root = '/home/mtq/repo/DeepLab-V1-PyTorch/VOCdevkit/VOC2012'
+        self.root = 'VOCdevkit/VOC2012'
         self.ann_dir_path = os.path.join(self.root, 'Annotations')
         self.image_dir_path = os.path.join(self.root, 'JPEGImages')
         self.label_dir_path = os.path.join(self.root, label_dir_path)

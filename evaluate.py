@@ -34,7 +34,7 @@ class IOUMetric:
 
 if __name__ == '__main__':
     mIOU = IOUMetric(num_classes=21)
-    root_dir = '/home/mtq/repo/DeepLab-V1-PyTorch/VOCdevkit/VOC2012/'
+    root_dir = 'VOCdevkit/VOC2012/'
 
     pred_dir = './exp/labels'
     gt_dir = root_dir + 'SegmentationClass/'
