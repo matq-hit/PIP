@@ -80,3 +80,16 @@ python evalate.py
 2. For DeepLabv2-ResNet-101 backbone, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch). We also provide the [ImageNet pretrained model](https://drive.google.com/drive/folders/14y9slUxrSabxLUhJlfyLNzIvL46GNqZu?usp=sharing).
 ## Reference
 1. [DeepLab-V1-PyTorch](https://github.com/wangleihitcs/DeepLab-V1-PyTorch)
+
+## Bibtex
+```latex
+@ARTICLE{9684236,
+  author={Ma, Tianqi and Wang, Qilong and Zhang, Hongzhi and Zuo, Wangmeng},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Delving Deeper Into Pixel Prior for Box-Supervised Semantic Segmentation}, 
+  year={2022},
+  volume={31},
+  number={},
+  pages={1406-1417},
+  doi={10.1109/TIP.2022.3141878}}
+```
