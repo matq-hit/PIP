@@ -62,10 +62,6 @@ VOCdevkit
 python main.py --type=train
 ```
 ### Test
-without CRF
-```
-python main.py --type=test
-```
 
 with CRF
 ```
