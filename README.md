@@ -1,6 +1,6 @@
 # PIP: Delving Deeper Into Pixel Prior for Box-Supervised Semantic Segmentation
 
-The implementation for of ["Delving Deeper Into Pixel Prior for Box-Supervised Semantic Segmentation"](https://ieeexplore.ieee.org/document/9684236), IEEE TIP.
+The implementation of ["Delving Deeper Into Pixel Prior for Box-Supervised Semantic Segmentation"](https://ieeexplore.ieee.org/document/9684236), IEEE TIP.
 
 ## Dependency
 - python 3.7 / pytorch 1.2.0
